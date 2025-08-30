@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a;
+    long long b;
+    char x[10];
+    float c;
+    double d;
+    cin>>a>>b>>x>>c>>d;
+    cout<<a<< endl;
+    cout<<b<<endl;
+    cout<<x<<endl;
+    cout<<c<< endl;
+    cout<<d<< endl;
+    return 0;
+}

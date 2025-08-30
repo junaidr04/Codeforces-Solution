@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    double b,x;
+    scanf("%lf", &b);
+    a=b;
+    x=b-a;
+    if(x==0)
+    {
+        printf("int %d\n", a);
+    }
+    else
+    {
+        printf("float %d %.3lf\n", a, x);
+    }
+    return 0;
+}

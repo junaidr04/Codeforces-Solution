@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    long long x,y,a,b,c;
+    scanf("%lld%lld", &x,&y);
+    a=x%10;
+    b=y%10;
+    c=a+b;
+    printf("%lld", c);
+        return 0;
+}
